@@ -4,7 +4,9 @@
 1. Создайте файл с именем .env с таким наполнением: 
   
   BOT_TOKEN = Токен бота  
+  
   ADMINS = telegramID админов бота  
+  
   IP = localhost
   
   loc_photo_worker = path 
@@ -23,7 +25,8 @@
   
   port=3306 (port DB) 
   
-  database=DB name 
+  database=DB name
+  
 ------------------------------------------
 2. Пропишите в терминале python3 app.py, бот запустится
   
